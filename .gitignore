@@ -1,0 +1,51 @@
+# Python стандартные исключения
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Логи и файлы отладки
+*.log
+*.pot
+*.out
+*.err
+
+# Конфигурационные файлы окружения
+.env
+.venv/
+*.env
+*.venv
+
+# Файлы для IDE и редакторов
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS системные файлы
+.DS_Store
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+*.envrc
+
+# Базы данных
+*.sqlite3
+db.sqlite3
+
+# Компиляция C
+*.o
+*.so
+*.a
+*.dylib
+
+
+
+# Библиотеки
+node_modules/
