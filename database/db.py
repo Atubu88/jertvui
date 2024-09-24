@@ -6,6 +6,8 @@ from datetime import datetime
 
 DATABASE_URL = "sqlite+aiosqlite:///./donations.db"
 
+
+
 engine = create_async_engine(DATABASE_URL, echo=True)
 async_session = sessionmaker(
     bind=engine,

@@ -25,9 +25,6 @@ __pycache__/
 # MacOS системные файлы
 .DS_Store
 
-# Docker
-Dockerfile
-.dockerignore
 
 # Virtual environments
 venv/
